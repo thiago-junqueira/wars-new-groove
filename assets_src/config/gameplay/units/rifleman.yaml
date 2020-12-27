@@ -1,0 +1,48 @@
+---
+weapons:
+  - id: musket
+    rangeMin: 1
+    rangeMax: 9
+    canMoveAndAttack: false
+    horizontalAndVerticalOnly: true
+    horizontalAndVerticalExtraWidth: 1
+    terrainExclusion:
+      - forest
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 0.85
+      ballista: 0.05
+      dog: 0.2
+      giant: 0.1
+      knight: 0.1
+      mage: 1.0
+      merman: 0.75
+      rifleman: 0.85
+      soldier: 1.2
+      spearman: 1.0
+      structure: 0.05
+      thief: 1.0
+      trebuchet: 0.05
+      villager: 1.2
+      wagon: 0.1
+      commander_caesar: 0.1
+      commander_darkmercia: 0.05
+      commander_elodie: 0.1
+      commander_emeric: 0.1
+      commander_greenfinger: 0.05
+      commander_koji: 0.05
+      commander_mercia: 0.05
+      commander_mercival: 0.05
+      commander_nuru: 0.05
+      commander_ragna: 0.05
+      commander_ryota: 0.1
+      commander_sedge: 0.1
+      commander_sigrid: 0.05
+      commander_tenri: 0.05
+      commander_twins: 0.1
+      commander_valder: 0.1
+      commander_vesper: 0.0
+      commander_wulfar: 0.05
+
+---

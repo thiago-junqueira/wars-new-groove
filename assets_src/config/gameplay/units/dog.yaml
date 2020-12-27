@@ -1,0 +1,44 @@
+---
+weapons:
+  - id: bite
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 0.75
+      ballista: 0.4
+      dog: 0.65
+      giant: 0.05
+      knight: 0.1
+      mage: 0.55
+      merman: 0.75
+      rifleman: 1.1
+      soldier: 0.75
+      spearman: 0.45
+      structure: 0.2
+      thief: 0.85
+      trebuchet: 0.35
+      villager: 0.75
+      wagon: 0.3
+      commander_caesar: 0.2
+      commander_darkmercia: 0.1
+      commander_elodie: 0.15
+      commander_emeric: 0.15
+      commander_greenfinger: 0.15
+      commander_koji: 0.1
+      commander_mercia: 0.1
+      commander_mercival: 0.15
+      commander_nuru: 0.15
+      commander_ragna: 0.1
+      commander_ryota: 0.2
+      commander_sedge: 0.2
+      commander_sigrid: 0.15
+      commander_tenri: 0.15
+      commander_twins: 0.15
+      commander_valder: 0.2
+      commander_vesper: 0.15
+      commander_wulfar: 0.15
+
+---

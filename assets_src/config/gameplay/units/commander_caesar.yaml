@@ -1,0 +1,65 @@
+---
+
+weapons:
+  - id: caesarCrossbowMen
+    rangeMin: 1
+    rangeMax: 2
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+      air: 1
+    tagDamage:
+      archer: 1.3
+      ballista: 0.6
+      balloon: 0.45
+      dog: 1.15
+      dragon: 0.35
+      giant: 0.4
+      harpy: 0.3
+      knight: 0.65
+      mage: 0.8
+      merman: 0.95
+      rifleman: 1.05
+      soldier: 1.15
+      spearman: 0.85
+      structure: 0.5
+      thief: 1.05
+      trebuchet: 0.55
+      villager: 0.95
+      wagon: 0.6
+      witch: 0.2
+      commander_caesar: 0.45
+      commander_darkmercia: 0.35
+      commander_elodie: 0.45
+      commander_emeric: 0.45
+      commander_greenfinger: 0.4
+      commander_koji: 0.45
+      commander_mercia: 0.35
+      commander_mercival: 0.4
+      commander_nuru: 0.4
+      commander_ragna: 0.35
+      commander_ryota: 0.45
+      commander_sedge: 0.45
+      commander_sigrid: 0.4
+      commander_tenri: 0.4
+      commander_twins: 0.45
+      commander_valder: 0.45
+      commander_vesper: 0.4
+      commander_wulfar: 0.4
+
+modifyingUnitClasses:
+  - id: commander_caesar
+    replace:
+      cost: 750
+      moveRange: 3
+      weapons:
+        - id: caesarCrossbowMen
+      passiveMultiplier: 1.25
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_caesar
+
+...

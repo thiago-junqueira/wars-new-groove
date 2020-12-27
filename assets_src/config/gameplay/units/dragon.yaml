@@ -1,0 +1,53 @@
+---
+weapons:
+  - id: fireBreath
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+      water: 1
+    tagDamage:
+      archer: 1.4
+      ballista: 1.1
+      dog: 1.5
+      giant: 0.65
+      harpoonship: 0.7
+      knight: 1
+      mage: 0.65
+      merman: 1.2
+      rifleman: 1.3
+      soldier: 1.2
+      spearman: 1.2
+      structure: 0.65
+      thief: 1.2
+      travelboat: 1.1
+      trebuchet: 1.05
+      turtle: 0.75
+      villager: 1.2
+      wagon: 0.8
+      warship: 0.9
+      commander_caesar: 0.4
+      commander_darkmercia: 0.3
+      commander_elodie: 0.3
+      commander_emeric: 0.3
+      commander_greenfinger: 0.35
+      commander_koji: 0.4
+      commander_mercia: 0.4
+      commander_mercival: 0.35
+      commander_nuru: 0.35
+      commander_ragna: 0.35
+      commander_ryota: 0.4
+      commander_sedge: 0.4
+      commander_sigrid: 0.3
+      commander_tenri: 0.35
+      commander_twins: 0.3
+      commander_valder: 0.3
+      commander_vesper: 0.35
+      commander_wulfar: 0.35
+
+modifyingUnitClasses:
+  - id: dragon
+    replace:
+      cost: 1300
+---

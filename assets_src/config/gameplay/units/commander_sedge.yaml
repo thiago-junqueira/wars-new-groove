@@ -1,0 +1,57 @@
+---
+weapons:
+  - id: sedgeAttack
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 1.2
+      ballista: 0.5
+      dog: 1.05
+      giant: 0.3
+      knight: 0.45
+      mage: 0.7
+      merman: 0.85
+      rifleman: 0.95
+      soldier: 1.05
+      spearman: 0.65
+      structure: 0.75
+      thief: 0.85
+      trebuchet: 0.45
+      villager: 0.85
+      wagon: 0.6
+      commander_caesar: 0.4
+      commander_darkmercia: 0.3
+      commander_elodie: 0.4
+      commander_emeric: 0.4
+      commander_greenfinger: 0.35
+      commander_koji: 0.3
+      commander_mercia: 0.3
+      commander_mercival: 0.35
+      commander_nuru: 0.35
+      commander_ragna: 0.3
+      commander_ryota: 0.4
+      commander_sedge: 0.4
+      commander_sigrid: 0.35
+      commander_tenri: 0.35
+      commander_twins: 0.4
+      commander_valder: 0.4
+      commander_vesper: 0.35
+      commander_wulfar: 0.35
+
+modifyingUnitClasses:
+  - id: commander_sedge
+    replace:
+      cost: 750
+      moveRange: 5
+      passiveMultiplier: 1.5
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_sedge
+
+...

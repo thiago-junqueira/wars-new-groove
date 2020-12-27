@@ -1,0 +1,57 @@
+---
+weapons:
+  - id: mercivalSword
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 1.2
+      ballista: 0.75
+      dog: 1.05
+      giant: 0.5
+      knight: 0.55
+      mage: 0.75
+      merman: 0.9
+      rifleman: 1.00
+      soldier: 1.05
+      spearman: 0.7
+      structure: 0.8
+      thief: 0.85
+      trebuchet: 0.6
+      villager: 0.9
+      wagon: 0.8
+      commander_caesar: 0.35
+      commander_darkmercia: 0.35
+      commander_elodie: 0.35
+      commander_emeric: 0.35
+      commander_greenfinger: 0.35
+      commander_koji: 0.35
+      commander_mercia: 0.35
+      commander_mercival: 0.35
+      commander_nuru: 0.35
+      commander_ragna: 0.35
+      commander_ryota: 0.35
+      commander_sedge: 0.35
+      commander_sigrid: 0.35
+      commander_tenri: 0.35
+      commander_twins: 0.35
+      commander_valder: 0.35
+      commander_vesper: 0.35
+      commander_wulfar: 0.35
+
+modifyingUnitClasses:
+  - id: commander_mercival
+    replace:
+      cost: 750
+      grooveId: diplomacy
+      passiveMultiplier: 2
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_mercival
+
+...

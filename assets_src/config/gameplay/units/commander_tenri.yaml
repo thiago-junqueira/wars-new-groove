@@ -1,0 +1,56 @@
+---
+weapons:
+  - id: tenriAttack
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 1.35
+      ballista: 0.65
+      dog: 1.20
+      giant: 0.45
+      knight: 0.6
+      mage: 0.85
+      merman: 1.00
+      rifleman: 1.15
+      soldier: 1.20
+      spearman: 0.8
+      structure: 0.75
+      thief: 1.00
+      trebuchet: 0.6
+      villager: 1.00
+      wagon: 0.75
+      commander_caesar: 0.45
+      commander_darkmercia: 0.35
+      commander_elodie: 0.45
+      commander_emeric: 0.45
+      commander_greenfinger: 0.4
+      commander_koji: 0.35
+      commander_mercia: 0.4
+      commander_mercival: 0.4
+      commander_nuru: 0.4
+      commander_ragna: 0.35
+      commander_ryota: 0.45
+      commander_sedge: 0.45
+      commander_sigrid: 0.4
+      commander_tenri: 0.4
+      commander_twins: 0.45
+      commander_valder: 0.45
+      commander_vesper: 0.4
+      commander_wulfar: 0.4
+
+modifyingUnitClasses:
+  - id: commander_tenri
+    replace:
+      cost: 750
+      passiveMultiplier: 2.0
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_tenri
+
+...

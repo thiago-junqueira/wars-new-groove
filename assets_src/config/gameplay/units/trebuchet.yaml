@@ -1,0 +1,49 @@
+---
+weapons:
+  - id: trebuchetSling
+    rangeMin: 2
+    rangeMax: 5
+    canMoveAndAttack: false
+    baseDamage:
+      land: 1
+      water: 1
+    tagDamage:
+      archer: 1.2
+      ballista: 0.85
+      dog: 1.1
+      giant: 0.6
+      harpoonship: 0.65
+      knight: 0.8
+      mage: 0.9
+      merman: 1
+      rifleman: 1.1
+      soldier: 1
+      spearman: 0.8
+      structure: 0.85
+      thief: 1
+      travelboat: 0.8
+      trebuchet: 0.8
+      turtle: 0.45
+      villager: 1
+      wagon: 0.7
+      warship: 0.75
+      commander_caesar: 0.3
+      commander_darkmercia: 0.2
+      commander_elodie: 0.3
+      commander_emeric: 0.3
+      commander_greenfinger: 0.25
+      commander_koji: 0.2
+      commander_mercia: 0.2
+      commander_mercival: 0.25
+      commander_nuru: 0.25
+      commander_ragna: 0.2
+      commander_ryota: 0.3
+      commander_sedge: 0.3
+      commander_sigrid: 0.25
+      commander_tenri: 0.25
+      commander_twins: 0.3
+      commander_valder: 0.3
+      commander_vesper: 0.25
+      commander_wulfar: 0.25
+
+---

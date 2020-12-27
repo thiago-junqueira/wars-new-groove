@@ -1,0 +1,54 @@
+---
+weapons:
+  - id: lightning
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+      air: 1
+    tagDamage:
+      archer: 0.85
+      ballista: 0.3
+      balloon: 1.0
+      dog: 0.8
+      dragon: 0.8
+      giant: 0.2
+      harpy: 1.4
+      knight: 0.3
+      mage: 0.35
+      merman: 0.55
+      rifleman: 0.95
+      soldier: 0.85
+      spearman: 0.75
+      structure: 0.35
+      thief: 0.85
+      travelboat: 0.2
+      trebuchet: 0.45
+      villager: 1.0
+      wagon: 0.55
+      witch: 1.3
+      commander_caesar: 0.2
+      commander_darkmercia: 0.25
+      commander_elodie: 0.15
+      commander_emeric: 0.15
+      commander_greenfinger: 0.2
+      commander_koji: 0.3
+      commander_mercia: 0.25
+      commander_mercival: 0.2
+      commander_nuru: 0.2
+      commander_ragna: 0.3
+      commander_ryota: 0.2
+      commander_sedge: 0.2
+      commander_sigrid: 0.2
+      commander_tenri: 0.2
+      commander_twins: 0.15
+      commander_valder: 0.1
+      commander_vesper: 0.15
+      commander_wulfar: 0.2
+
+modifyingUnitClasses:
+  - id: mage
+    replace:
+      cost: 500
+---

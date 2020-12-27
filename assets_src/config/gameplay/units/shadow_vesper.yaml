@@ -1,0 +1,49 @@
+weapons:
+  - id: shadowVesperWhip
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 0.75
+      ballista: 0.4
+      dog: 0.60
+      giant: 0.25
+      knight: 0.35
+      mage: 0.5
+      merman: 0.6
+      rifleman: 0.65
+      soldier: 0.75
+      spearman: 0.45
+      structure: 0.4
+      thief: 0.55
+      trebuchet: 0.30
+      villager: 0.55
+      wagon: 0.40
+      commander_caesar: 0.25
+      commander_darkmercia: 0.15
+      commander_elodie: 0.25
+      commander_emeric: 0.25
+      commander_greenfinger: 0.2
+      commander_koji: 0.15
+      commander_mercia: 0.2
+      commander_mercival: 0.2
+      commander_nuru: 0.2
+      commander_ragna: 0.15
+      commander_ryota: 0.25
+      commander_sedge: 0.25
+      commander_sigrid: 0.2
+      commander_tenri: 0.2
+      commander_twins: 0.25
+      commander_valder: 0.25
+      commander_vesper: 0.2
+      commander_wulfar: 0.2
+
+modifyingUnitClasses:
+  - id: shadow_vesper
+    replace:
+      regeneration: -10
+      grooveId: smoke_screen_new
+      weapons:
+        - id: shadowVesperWhip

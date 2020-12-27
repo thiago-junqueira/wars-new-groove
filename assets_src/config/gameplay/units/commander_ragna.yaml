@@ -1,0 +1,65 @@
+---
+weapons:
+  - id: ragnaAttack
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 1.3
+      ballista: 0.6
+      dog: 1.15
+      giant: 0.4
+      knight: 0.55
+      mage: 0.8
+      merman: 0.95
+      rifleman: 1.05
+      soldier: 1.15
+      spearman: 0.75
+      structure: 0.7
+      thief: 0.95
+      trebuchet: 0.55
+      villager: 0.95
+      wagon: 0.7
+      commander_caesar: 0.45
+      commander_darkmercia: 0.35
+      commander_elodie: 0.45
+      commander_emeric: 0.45
+      commander_greenfinger: 0.4
+      commander_koji: 0.35
+      commander_mercia: 0.35
+      commander_mercival: 0.4
+      commander_nuru: 0.4
+      commander_ragna: 0.35
+      commander_ryota: 0.45
+      commander_sedge: 0.45
+      commander_sigrid: 0.4
+      commander_tenri: 0.4
+      commander_twins: 0.45
+      commander_valder: 0.45
+      commander_vesper: 0.4
+      commander_wulfar: 0.4
+      balloon: 0.55
+      dragon: 0.35
+      harpoonship: 0.45
+      harpy: 0.9
+      travelboat: 0.6
+      turtle: 0.55
+      warship: 0.55
+      witch: 0.7
+
+modifyingUnitClasses:
+  - id: commander_ragna
+    replace:
+      cost: 750
+      regeneration: 10
+      passiveMultiplier: 1.5
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_ragna
+
+...

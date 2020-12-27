@@ -1,0 +1,57 @@
+---
+weapons:
+  - id: nuruAttack
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 1.25
+      ballista: 0.55
+      dog: 1.1
+      giant: 0.35
+      knight: 0.5
+      mage: 0.75
+      merman: 0.9
+      rifleman: 1.0
+      soldier: 1.1
+      spearman: 0.7
+      structure: 0.65
+      thief: 0.9
+      trebuchet: 0.5
+      villager: 0.9
+      wagon: 0.65
+      commander_caesar: 0.4
+      commander_darkmercia: 0.3
+      commander_elodie: 0.4
+      commander_emeric: 0.4
+      commander_greenfinger: 0.35
+      commander_koji: 0.3
+      commander_mercia: 0.35
+      commander_mercival: 0.3
+      commander_nuru: 0.35
+      commander_ragna: 0.3
+      commander_ryota: 0.4
+      commander_sedge: 0.4
+      commander_sigrid: 0.35
+      commander_tenri: 0.35
+      commander_twins: 0.4
+      commander_valder: 0.4
+      commander_vesper: 0.35
+      commander_wulfar: 0.35
+
+modifyingUnitClasses:
+  - id: commander_nuru
+    replace:
+      cost: 750
+      grooveId: satellite
+      passiveMultiplier: 1
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_nuru
+
+...

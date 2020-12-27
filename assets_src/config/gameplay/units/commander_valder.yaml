@@ -1,0 +1,68 @@
+---
+
+weapons:
+  - id: valderSpell
+    rangeMin: 2
+    rangeMax: 4
+    canMoveAndAttack: false
+    baseDamage:
+      land: 1
+      water: 1
+      air: 1
+    tagDamage:
+      archer: 1.3
+      ballista: 0.6
+      balloon: 0.55
+      dog: 1.15
+      dragon: 0.35
+      giant: 0.4
+      harpoonship: 0.45
+      harpy: 0.9
+      knight: 0.55
+      mage: 0.8
+      merman: 0.95
+      rifleman: 1.05
+      soldier: 1.15
+      spearman: 0.75
+      structure: 0.35
+      thief: 0.95
+      travelboat: 0.6
+      trebuchet: 0.55
+      turtle: 0.55
+      villager: 0.95
+      wagon: 0.7
+      warship: 0.55
+      witch: 0.7
+      commander_caesar: 0.45
+      commander_darkmercia: 0.45
+      commander_elodie: 0.35
+      commander_emeric: 0.35
+      commander_greenfinger: 0.45
+      commander_koji: 0.50
+      commander_mercia: 0.45
+      commander_mercival: 0.4
+      commander_nuru: 0.45
+      commander_ragna: 0.4
+      commander_ryota: 0.45
+      commander_sedge: 0.45
+      commander_sigrid: 0.35
+      commander_tenri: 0.4
+      commander_twins: 0.35
+      commander_valder: 0.35
+      commander_vesper: 0.45
+      commander_wulfar: 0.45
+
+modifyingUnitClasses:
+  - id: commander_valder
+    replace:
+      cost: 750
+      moveRange: 3
+      passiveMultiplier: 1.5
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_valder
+
+...

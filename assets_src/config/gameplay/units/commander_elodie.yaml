@@ -1,0 +1,66 @@
+---
+weapons:
+  - id: elodieCello
+    rangeMin: 1
+    rangeMax: 2
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+      water: 1
+      air: 1
+    tagDamage:
+      archer: 1.25
+      ballista: 0.55
+      balloon: 0.5
+      dog: 1.1
+      dragon: 0.35
+      giant: 0.4
+      harpoonship: 0.4
+      harpy: 0.6
+      knight: 0.5
+      mage: 0.75
+      merman: 0.9
+      rifleman: 1.0
+      soldier: 1.1
+      spearman: 0.7
+      structure: 0.4
+      thief: 0.9
+      travelboat: 0.55
+      trebuchet: 0.5
+      turtle: 0.5
+      villager: 0.9
+      wagon: 0.65
+      warship: 0.5
+      witch: 0.65
+      commander_caesar: 0.4
+      commander_darkmercia: 0.4
+      commander_elodie: 0.4
+      commander_emeric: 0.4
+      commander_greenfinger: 0.4
+      commander_koji: 0.4
+      commander_mercia: 0.4
+      commander_mercival: 0.4
+      commander_nuru: 0.4
+      commander_ragna: 0.4
+      commander_ryota: 0.4
+      commander_sedge: 0.4
+      commander_sigrid: 0.4
+      commander_tenri: 0.4
+      commander_twins: 0.4
+      commander_valder: 0.4
+      commander_vesper: 0.4
+      commander_wulfar: 0.4
+
+modifyingUnitClasses:
+  - id: commander_elodie
+    replace:
+      cost: 750
+      passiveMultiplier: 1.25
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_elodie
+
+...

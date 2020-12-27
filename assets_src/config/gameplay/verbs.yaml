@@ -1,0 +1,212 @@
+---
+
+verbs:
+  - id: groove_heal_aura_new
+    icon: ui/icons/grooves/unit_action_icon_heal.png
+    name: groove_name_heal_aura
+    targetColour: target
+    targetOutlineColour: target_outline
+    splashOutlineColour: heal_outline
+    targetted: true
+    splashRadius: 3
+    scriptName: verbs/groove_heal_aura_new
+
+  - id: groove_raise_dead_new
+    icon: ui/icons/grooves/unit_action_icon_dead.png
+    name: groove_name_raise_dead
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    scriptName: verbs/groove_raise_dead_new
+
+  - id: groove_cherrystone_defence_new
+    icon: ui/icons/grooves/unit_action_icon_crystals.png
+    name: groove_name_cherrystone_defence
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    splashRadius: 3
+    splashOutlineColour: target_outline
+    scriptName: verbs/groove_cherrystone_defence_new
+
+  - id: groove_second_wind_new
+    icon: ui/icons/grooves/unit_action_icon_inspire.png
+    name: groove_name_second_wind
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    splashRadius: 1
+    splashOutlineColour: target_outline
+    scriptName: verbs/groove_second_wind_new
+
+  - id: groove_diplomacy_new
+    icon: ui/icons/grooves/unit_action_icon_fish.png
+    name: groove_name_diplomacy
+    directTarget: true
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    preExecute: true
+    scriptName: verbs/groove_diplomacy_new
+
+  - id: groove_vampiric_touch_new
+    icon: ui/icons/grooves/unit_action_icon_vampiric.png
+    name: groove_name_vampiric_touch
+    directTarget: true
+    targetColour: attack_target
+    targetOutlineColour: attack_target_outline
+    targetted: true
+    scriptName: verbs/groove_vampiric_touch_new
+
+  - id: groove_splash_jump_new
+    icon: ui/icons/grooves/unit_action_icon_shield.png
+    name: groove_name_splash_jump
+    splashOutlineColour: attack_target_outline
+    splashRadius: 3
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    scriptName: verbs/groove_splash_jump_new
+
+  - id: groove_vine_wall_new
+    icon: ui/icons/grooves/unit_action_icon_vine.png
+    name: groove_name_vine_wall
+    preExecute: true
+    targetColour: target
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_vine_wall_new
+
+  - id: groove_teleport_beam_new
+    icon: ui/icons/grooves/unit_action_icon_teleport.png
+    name: groove_name_teleport_beam
+    preExecute: true
+    targetColour: target
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_teleport_beam_new
+
+  - id: groove_orbital_strike
+    icon: ui/icons/grooves/unit_action_icon_teleport.png
+    name: groove_name_orbital_strike
+    splashOutlineColour: attack_target_outline
+    splashRadius: 2
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    hasResourceCost: true
+    scriptName: verbs/groove_orbital_strike
+
+  - id: groove_tornado_new
+    icon: ui/icons/grooves/unit_action_icon_diplomacy.png
+    name: groove_name_tornado
+    preExecute: true
+    targetted: true
+    directTarget: true
+    targetColour: target
+    targetDisplayColour: target
+    targetDisplayOutlineColour: target_outline
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_tornado_new
+
+  - id: groove_dash_new
+    icon: ui/icons/grooves/unit_action_icon_dash.png
+    name: groove_name_dash
+    preExecute: true
+    targetColour: target
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_dash_new
+
+  - id: groove_drone_bombs_new
+    icon: ui/icons/grooves/unit_action_icon_bomb.png
+    name: groove_name_drone_bombs
+    preExecute: true
+    targetColour: target
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_drone_bombs_new
+
+  - id: groove_convert_new
+    icon: ui/icons/grooves/unit_action_icon_convert.png
+    name: groove_name_convert
+    directTarget: true
+    targetted: true
+    targetColour: attack_target
+    targetOutlineColour: attack_target_outline
+    scriptName: verbs/groove_convert_new
+
+  - id: groove_drain_aura_new
+    icon: ui/icons/grooves/unit_action_icon_ruin.png
+    name: groove_name_drain_aura
+    splashRadius: 4
+    splashOutlineColour: target_outline
+    targetted: true
+    targetColour: target
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_drain_aura_new
+
+  - id: groove_golf_new
+    icon: ui/icons/grooves/unit_action_icon_hammer.png
+    name: groove_name_golf
+    directTarget: true
+    preExecute: true
+    targetted: true
+    targetColour: target
+    targetDisplayColour: target
+    targetDisplayOutlineColour: target_outline
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_golf_new
+
+  - id: groove_smoke_screen_new
+    icon: ui/icons/grooves/unit_action_icon_smoke.png
+    name: groove_name_smoke_screen
+    splashOutlineColour: heal_outline
+    splashRadius: 2
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    scriptName: verbs/groove_smoke_screen_new
+
+  - id: groove_shadow_sisters
+    icon: ui/icons/grooves/unit_action_icon_smoke.png
+    name: groove_name_shadow_sisters
+    preExecute: true
+    targetColour: target
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_shadow_sisters
+
+  - id: groove_dual_bombs
+    icon: ui/icons/grooves/unit_action_icon_yin.png
+    name: groove_name_dual_bombs
+    preExecute: true
+    splashOutlineColour: attack_target_outline
+    splashRadius: 3
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
+    targetColour: target
+    targetOutlineColour: target_outline
+    scriptName: verbs/groove_dual_bombs
+
+  - id: steal_orla
+    icon: ui/icons/unit_action_icon_steal.png
+    name: ui_unit_verbs_steal
+    directTarget: true
+    targetColour: attack_target
+    targetOutlineColour: attack_target_outline
+    targetted: true
+    scriptName: verbs/steal_orla
+
+  - id: emeric_teleport
+    icon: ui/icons/grooves/unit_action_icon_hex.png
+    name: ui_cutscene_create_movement_teleport
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetted: true
+    scriptName: verbs/teleport
+    hasResourceCost: true
+...

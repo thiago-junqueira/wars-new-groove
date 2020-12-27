@@ -1,0 +1,44 @@
+---
+weapons:
+  - id: lance
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      land: 1
+    tagDamage:
+      archer: 1
+      ballista: 0.85
+      dog: 1.2
+      giant: 0.25
+      knight: 0.55
+      mage: 1.1
+      merman: 0.85
+      rifleman: 1.0
+      soldier: 0.9
+      spearman: 0.45
+      structure: 0.65
+      thief: 0.9
+      trebuchet: 0.8
+      villager: 0.9
+      wagon: 0.55
+      commander_caesar: 0.35
+      commander_darkmercia: 0.2
+      commander_elodie: 0.3
+      commander_emeric: 0.3
+      commander_greenfinger: 0.25
+      commander_koji: 0.2
+      commander_mercia: 0.2
+      commander_mercival: 0.25
+      commander_nuru: 0.25
+      commander_ragna: 0.2
+      commander_ryota: 0.3
+      commander_sedge: 0.3
+      commander_sigrid: 0.25
+      commander_tenri: 0.25
+      commander_twins: 0.3
+      commander_valder: 0.3
+      commander_vesper: 0.25
+      commander_wulfar: 0.25
+
+---

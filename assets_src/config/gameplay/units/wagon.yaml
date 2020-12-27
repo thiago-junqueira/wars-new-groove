@@ -1,0 +1,4 @@
+modifyingUnitClasses:
+  - id: wagon
+    replace:
+      loadCapacity: 2

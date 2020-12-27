@@ -1,0 +1,21 @@
+---
+
+# This is the string configuration file for English.
+en-GB:
+
+  # Groove
+  groove_name_diplomacy: Diplomacy
+  groove_name_all_caps_diplomacy: DIPLOMACY
+  groove_description_diplomacy: "Mercival leverages his diplomatic skills to instantly capture an enemy structure. Strongholds too, naturally..."
+
+  groove_name_fumomancy: Fumomancy
+  groove_name_all_caps_fumomancy: FUMOMANCY
+  groove_description_fumomancy: Vesper can create a smoke shroud or shadow sisters through the power of Smoke Conjuration.
+
+  groove_name_satellite: Satellite
+  groove_description_satellite: Nuru activates her satellite orbiting Aurania, which can beam down units or do an orbital strike.
+
+  groove_name_orbital_strike: Orbital Strike
+  groove_name_all_caps_orbital_strike: "ORBITAL STRIKE"
+
+...

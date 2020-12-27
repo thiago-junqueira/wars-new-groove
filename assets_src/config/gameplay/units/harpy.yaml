@@ -1,0 +1,54 @@
+---
+weapons:
+  - id: harpyClaws
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      air: 1
+      land: 1
+      water: 1
+    tagDamage:
+      archer: 0.75
+      ballista: 0.35
+      balloon: 0.55
+      dog: 0.55
+      dragon: 0.35
+      giant: 0.15
+      harpoonship: 0.25
+      harpy: 0.55
+      knight: 0.75
+      mage: 0.25
+      merman: 0.65
+      rifleman: 0.75
+      soldier: 0.65
+      spearman: 0.45
+      structure: 0.5
+      thief: 0.65
+      travelboat: 0.35
+      trebuchet: 0.55
+      turtle: 0.25
+      villager: 0.65
+      wagon: 0.35
+      warship: 0.45
+      witch: 0.3
+      commander_caesar: 0.2
+      commander_darkmercia: 0.1
+      commander_elodie: 0.15
+      commander_emeric: 0.15
+      commander_greenfinger: 0.15
+      commander_koji: 0.1
+      commander_mercia: 0.1
+      commander_mercival: 0.15
+      commander_nuru: 0.15
+      commander_ragna: 0.1
+      commander_ryota: 0.2
+      commander_sedge: 0.2
+      commander_sigrid: 0.15
+      commander_tenri: 0.15
+      commander_twins: 0.2
+      commander_valder: 0.2
+      commander_vesper: 0.15
+      commander_wulfar: 0.15
+
+---

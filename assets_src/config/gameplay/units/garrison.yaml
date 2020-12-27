@@ -1,0 +1,54 @@
+---
+weapons:
+  - id: citybow
+    rangeMin: 1
+    rangeMax: 1
+    canMoveAndAttack: true
+    baseDamage:
+      air: 1
+      land: 1
+      water: 1
+    tagDamage:
+      archer: 0.3
+      ballista: 0.25
+      balloon: 0.2
+      dog: 0.35
+      dragon: 0.05
+      giant: 0.05
+      harpoonship: 0.2
+      harpy: 0.3
+      knight: 0.1
+      mage: 0.35
+      merman: 0.3
+      rifleman: 0.4
+      soldier: 0.3
+      spearman: 0.3
+      structure: 0.2
+      thief: 0.3
+      travelboat: 0.2
+      trebuchet: 0.2
+      turtle: 0.2
+      villager: 0.3
+      wagon: 0.35
+      warship: 0.2
+      witch: 0.2
+      commander_caesar: 0.05
+      commander_darkmercia: 0.05
+      commander_elodie: 0.05
+      commander_emeric: 0.05
+      commander_greenfinger: 0.05
+      commander_koji: 0.05
+      commander_mercia: 0.05
+      commander_mercival: 0.0
+      commander_nuru: 0.05
+      commander_ragna: 0.05
+      commander_ryota: 0.05
+      commander_sedge: 0.05
+      commander_sigrid: 0.05
+      commander_tenri: 0.05
+      commander_twins: 0.05
+      commander_valder: 0.05
+      commander_vesper: 0.05
+      commander_wulfar: 0.05
+
+---

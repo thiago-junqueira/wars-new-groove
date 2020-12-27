@@ -1,0 +1,72 @@
+---
+
+weapons:
+  - id: emericSpell
+    rangeMin: 1
+    rangeMax: 5
+    canMoveAndAttack: false
+    horizontalAndVerticalOnly: true
+    horizontalAndVerticalExtraWidth: 0
+    baseDamage:
+      land: 1
+      water: 1
+      air: 1
+    tagDamage:
+      archer: 1.3
+      ballista: 0.6
+      balloon: 1.0
+      dog: 1.15
+      dragon: 0.6
+      giant: 0.4
+      harpoonship: 0.45
+      harpy: 0.9
+      knight: 0.55
+      mage: 0.6
+      merman: 0.95
+      rifleman: 1.05
+      soldier: 1.15
+      spearman: 0.75
+      structure: 0.3
+      thief: 0.95
+      travelboat: 0.6
+      trebuchet: 0.55
+      turtle: 0.55
+      villager: 0.95
+      wagon: 0.7
+      warship: 0.55
+      witch: 0.8
+      commander_caesar: 0.4
+      commander_darkmercia: 0.4
+      commander_elodie: 0.4
+      commander_emeric: 0.4
+      commander_greenfinger: 0.4
+      commander_koji: 0.4
+      commander_mercia: 0.4
+      commander_mercival: 0.4
+      commander_nuru: 0.4
+      commander_ragna: 0.4
+      commander_ryota: 0.4
+      commander_sedge: 0.4
+      commander_sigrid: 0.4
+      commander_tenri: 0.4
+      commander_twins: 0.4
+      commander_valder: 0.4
+      commander_vesper: 0.4
+      commander_wulfar: 0.4
+
+modifyingUnitClasses:
+  - id: commander_emeric
+    replace:
+      cost: 750
+      moveRange: 3
+      passiveMultiplier: 1.5
+    remove:
+      tags:
+        - commander
+    add:
+      tags:
+        - commander_emeric
+      verbs:
+        - emeric_teleport
+
+...
